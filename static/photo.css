@@ -1,0 +1,16 @@
+.photo-frame{
+    flex: 1 1 0;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.photo-img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.photo-title{
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+}

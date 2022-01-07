@@ -1,0 +1,66 @@
+.diary-calendar {
+  flex: 0.1 0.1 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1.5px solid rgb(204, 204, 204);
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.calendar-today {
+  flex: 0.15;
+  padding: 10px;
+}
+
+.calendar-datelist {
+  flex: 0.85;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.calendar-date {
+  flex: 0 0 1.5rem;
+  text-align: center;
+}
+
+.diary-content {
+  flex: 0.9 0.9 0;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.diary-frame {
+  display: block;
+  width: 95%;
+  border: 1.5px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.secret-access {
+  display: flex;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  color: white;
+  background-color: whitesmoke;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.secret-access:hover {
+  background-color: teal;
+}
+
+#secret {
+  display: none;
+}

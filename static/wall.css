@@ -1,0 +1,33 @@
+.wall-frame {
+  flex: 1 1 0;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.wall-title {
+  background-color: rgb(194, 194, 194);
+  padding: 10px;
+}
+
+.wall-content {
+  display: flex;
+}
+
+.wall-img {
+  flex: 0.3;
+  background-image: url("https://cdn.hipwallpaper.com/i/45/2/fg5TjC.png");
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wall-text {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.wall-img .inner {
+  width: 80%;
+}
